@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/drop_rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/rect_contact_relative" >
+
+	        <Button
+	            android:id="@+id/home_icon"
+	            android:layout_width="40dp"
+	            android:layout_height="40dp"
+	            android:layout_marginLeft="15dp"
+	            
+	            android:background="@drawable/pick_unpressed_new" 
+	            android:layout_centerVertical="true"/>
+	
+	        <TextView
+	            android:id="@+id/home_icon_informal_text_textview"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentTop="true"
+	            android:layout_marginTop="10dp"
+	            android:layout_marginLeft="5dp"
+	            android:layout_marginBottom="5dp"
+	            android:layout_toRightOf="@id/home_icon"
+	            android:text="@string/drop_me"
+	            android:textColor="@color/apptheme_color" />
+	
+	        <TextView
+	            android:id="@+id/address_field1_textview"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignLeft="@+id/home_icon_informal_text_textview"
+	            android:layout_below="@id/home_icon_informal_text_textview"
+	            android:text="@string/drop_address_field1" />
+	
+	        <TextView
+	            android:id="@+id/address_field2_textview"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignLeft="@id/address_field1_textview"
+	            android:layout_below="@id/address_field1_textview"
+	            android:text="@string/drop_address_field2" />
+	
+	        <TextView
+	            android:id="@+id/address_field3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@id/address_field2_textview"
+	            android:layout_alignLeft="@+id/address_field2_textview"
+	            android:text="@string/drop_address_field3" />
+
+    </RelativeLayout>
+
+	<RelativeLayout
+	    android:id="@+id/drop_rectangle_view_triangle_white"
+	    android:layout_width="30dp"
+	    android:layout_height="31dp"
+	    android:layout_alignBottom="@id/drop_rectangle"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginBottom="98dp"
+	    android:layout_marginRight="23dp"
+	    android:background="@drawable/tri_white_contact_relative_inverted" >
+	
+	</RelativeLayout>
+
+</RelativeLayout>

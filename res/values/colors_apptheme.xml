@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="apptheme_color">#750c17</color>
+    <color name = "apptheme_color_transparent">#CC750c17</color>
+    <color name = "white">#ffffff</color>
+    <color name = "black">#000000</color>
+    <color name ="font_whitebox">#666261</color>
+    <color name ="new_path_color">#750c17</color>
+    <color name  = "apptheme_grey">#e2e1e1</color>
+    <color name="transparent">#00ffffff</color>
+    <color name ="transparent_white">#ccffffff</color>
+    <color name ="transparent50_white">#33ffffff</color>
+    <color name ="yellow">#ffff00</color>
+</resources>

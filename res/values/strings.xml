@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PickPal</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_my_action_bar">Migo</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="title_activity_my_base">PickPal</string>
+    <string name="registration_1_name">Full Name </string>
+    <string name="plus">+91</string>
+    <string name="registration_1_mobile">Mobile no.</string>
+    <string name="registration_1_personal_mail">Personal email id.</string>
+    <string name="registration_1_company_mail">Office Pick Up Location</string>
+    <string name="registration_1_password">Password</string>
+    <string name="facebook">Facebook</string>
+    <string name="linked_in">Linked In</string>
+    <string name="login">Login</string>
+    <string name="next">Next</string>
+    <string name="title_activity_path_google_map">MigoMaps</string>
+    <string name="update_status">update status</string>
+    <string name="app_id">380801208745774</string>
+    <string name="post_image">post image</string>
+    <string name="book_text">Book</string>
+    <string name="age_value">45</string>
+    <string name="age">Age:</string>
+    <string name="with_us_value">2 months</string>
+    <string name="with_us">With us since</string>
+    <string name="sex_value">M</string>
+    <string name="sex">Sex:</string>
+    <string name="rating_value">5.0</string>
+    <string name="rating">Rating:</string>
+    <string name="User_move_name">Name</string>
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string-array name="page_list_array">
+        <item>Office</item>
+        <item>Airport</item>
+        <item>Intercity</item>
+        <item>Wallet</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="list_button">Ritesh Singh</string>
+    <string name="title_activity_facebook">FacebookActivity</string>
+    <string name="contact_name">Nisha</string>
+    <string name="contact_company">Infosys</string>
+    <string name="contact_contact_no">798347932</string>
+    <string name="informal_going_with">Going with</string>
+    <string name="pick_me">Pick me up at</string>
+    <string name="drop_me">Drop me at</string>
+    <string name="drop_address_field1">CISCO</string>
+    <string name="drop_address_field2">1st block</string>
+    <string name="drop_address_field3">Koramangala</string>
+    <string name="pickup_address_field1">26/C</string>
+    <string name="pickup_address_field2">IIIT Bangalore</string>
+    <string name="pickup_address_field3">Hosur Road</string>
+    <string name="pickup_in_text">Will pick you up in </string>
+    <string name="pickup_minutes_text">minutes</string>
+    <string name="confirm_ride">Confirm ride</string>
+    <string name="title_activity_registeration">PickPal</string>
+    <string name="title_activity_payment">PaymentActivity</string>
+
+</resources>

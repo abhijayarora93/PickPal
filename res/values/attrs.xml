@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="CarView">
+	    <attr name="car_type" format="string" />
+	    <attr name = "car_seats" format= "integer"/> 
+	</declare-styleable>
+	
+	<declare-styleable name  = "contactRelative">
+	    <attr name  = "clicked" format = "string"></attr>
+	</declare-styleable>
+	
+	<declare-styleable name="AnalogClock">
+        <attr name="dial" format="reference"/>
+        <attr name="hand_hour" format="reference"/>
+        <attr name="hand_minute" format="reference"/>
+        <attr name = "waitTime" format= "string"/>
+        <attr name = "waitTimetype" format= "string"></attr>
+        
+        
+    </declare-styleable>
+    
+    <declare-styleable name  = "pickUpRelative">
+	    <attr name  = "clicked_pick" format = "string"></attr>
+	</declare-styleable>
+	<declare-styleable name  = "dropMeRelative">
+	    <attr name  = "clicked_drop" format = "string"></attr>
+	</declare-styleable>
+</resources>

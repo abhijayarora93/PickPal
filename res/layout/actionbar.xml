@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/apptheme_color"
+    
+    >
+
+    <ImageView android:id="@+id/three_dash"
+               android:src="@drawable/ic_drawer"
+               android:layout_gravity="center_vertical|left"
+           	   android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginRight="2dip"
+               android:layout_marginLeft="-3dip"
+    			android:scaleType = "fitCenter"/>
+        
+    
+    <ImageView android:id="@id/home"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="10dip"
+               android:src="@drawable/ic_launcher"
+
+               
+               android:adjustViewBounds="true"
+               android:scaleType="fitCenter"/>
+
+   
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		 android:layout_marginBottom="@dimen/abc_action_bar_icon_vertical_padding"
+        android:layout_marginTop="@dimen/abc_action_bar_icon_vertical_padding"
+        android:text="@string/app_name"
+        android:textColor="#ffffff"
+        android:textSize="24sp" 
+        android:layout_centerHorizontal="true"/>
+                
+        
+    
+   
+
+</RelativeLayout>

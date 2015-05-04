@@ -1,0 +1,59 @@
+<!-- As the main content view, the view below consumes the entire
+         space available using match_parent in both dimensions. -->
+<LinearLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+	    xmlns:custom="http://schemas.android.com/apk/res-auto"
+	    android:orientation="vertical">
+	    <LinearLayout android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical">
+		             <TextView
+	                 android:layout_width="96dp"
+	                 android:layout_height="wrap_content"
+	                 android:text="hello" 
+	                 android:layout_marginLeft="100dp"
+	                 android:layout_marginTop="60dp"/>
+
+		             
+		             <com.example.migo.ContactRelativeView
+		                 android:id="@+id/contact_relative_view"
+		                 android:layout_width="wrap_content"
+		                 android:layout_height="wrap_content"
+		                 custom:clicked="false"
+		                 android:clickable="true"
+		                 >
+		                 
+		             </com.example.migo.ContactRelativeView>
+<!-- 	         <com.example.migo.CarView -->
+<!-- 	             android:layout_width="wrap_content" -->
+<!-- 	             android:layout_height="wrap_content" -->
+<!-- 	             custom:car_type = "medium" -->
+	             
+<!-- 	              /> -->
+
+<!-- 	          <com.example.migo.TimerAnalogClockView -->
+<!-- 	              android:id="@+id/clock" -->
+<!-- 	              android:layout_width="wrap_content" -->
+<!-- 	              android:layout_height="wrap_content" /> -->
+
+	    </LinearLayout>
+       
+            
+        
+	    <TextView
+	        android:id="@+id/text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="test text view" />
+	       
+      
+        <FrameLayout
+            android:id="@+id/facebook_fragment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+</LinearLayout>
+    

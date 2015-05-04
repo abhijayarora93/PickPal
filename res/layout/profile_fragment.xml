@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+<RelativeLayout
+ 
+  android:id="@+id/text_layouts"
+ android:layout_width="wrap_content"
+  android:layout_height="match_parent"
+  android:layout_weight = "3">
+
+   <TextView
+       android:id="@+id/userAge"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:text="@string/age" />
+   <TextView
+       android:id="@+id/userAgeValue"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:text="@string/age_value"
+       android:layout_toRightOf="@id/userAge" />
+   
+    <TextView
+       android:id="@+id/userSex"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:text="@string/sex" 
+       android:layout_below="@id/userAge"/>
+   <TextView
+       android:id="@+id/userSexValue"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:text="@string/sex_value"
+       android:layout_toRightOf="@id/userSex"
+       android:layout_below="@id/userAgeValue" />
+   
+      <TextView
+       android:id="@+id/withUs"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:text="@string/with_us" 
+       android:layout_below="@id/userSex"/>
+   <TextView
+       android:id="@+id/withUsValue"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:text="@string/with_us_value"
+       android:layout_toRightOf="@id/withUs" 
+       android:layout_below="@id/userSexValue"/>
+     <TextView
+       android:id="@+id/rating"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:text="@string/rating" 
+       android:layout_below="@id/withUs"/>
+   <TextView
+       android:id="@+id/ratingValue"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:text="@string/with_us_value"
+       android:layout_toRightOf="@id/rating" 
+       android:layout_below="@id/withUsValue"/>
+      
+</RelativeLayout>
+
+<RelativeLayout
+    android:id="@+id/image_layouts"
+ android:layout_width="wrap_content"
+  android:layout_height="match_parent" 
+   android:layout_weight = "1"  >
+</RelativeLayout>
+
+</LinearLayout>

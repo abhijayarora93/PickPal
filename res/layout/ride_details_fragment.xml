@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:custom="http://schemas.android.com/apk/res-auto"
+    	android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+          <com.example.migo.ContactRelativeView 
+               android:id="@+id/contact_relative_view_ride"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"
+		       custom:clicked="false"
+		       android:clickable="true"
+		       android:layout_alignParentLeft="true"
+		       android:layout_alignParentTop="true"
+		     	android:layout_marginTop="20dp"
+		       android:layout_marginBottom="0dp"
+		       android:layout_marginLeft="10dp"
+		  
+              />
+          
+          <com.example.migo.PickupClockRelativeView
+              android:id="@+id/clock_relative_view"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_toRightOf="@id/contact_relative_view_ride"
+              android:layout_alignTop="@id/contact_relative_view_ride"
+              
+              />
+    		
+         
+    	<com.example.migo.CarView
+    		    android:id="@+id/main_car"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             custom:car_type = "medium"
+	             android:layout_centerHorizontal="true"
+	             android:layout_below="@id/contact_relative_view_ride"
+	             android:layout_marginRight="-7dp"
+	             android:layout_marginTop="-30dp"
+	           />
+          
+      <com.example.migo.PickUpRelativeView
+               android:id="@+id/pickup_relative_view_ride"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"
+		       custom:clicked_pick="false"
+		       android:clickable="true"
+		       android:layout_alignParentLeft="true"
+		       android:layout_below="@id/main_car"
+		       android:layout_marginTop="-20dp"
+		       android:layout_marginLeft="10dp"
+		     	
+		  
+              />
+      
+      <com.example.migo.DropMeRelativeView
+               android:id="@+id/drop_relative_view_ride"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"
+		       custom:clicked_drop="false"
+		       android:clickable="true"
+		       android:layout_alignParentRight="true"
+		       android:layout_below="@id/main_car"
+		       android:layout_marginTop="-20dp"
+		       android:layout_marginRight="10dp"
+		     	
+		  
+              />
+      
+    
+      
+      <Button 
+          android:id="@+id/confirm_ride_button"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/drop_relative_view_ride"
+          android:layout_marginTop="20dp"
+          android:text="@string/confirm_ride"
+          android:textColor="@color/white"
+          android:onClick="PaymentActivity"/>
+    
+          
+              
+          
+           
+          
+    		
+
+</RelativeLayout>
